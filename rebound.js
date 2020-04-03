@@ -203,11 +203,11 @@ let setDifficulty = (diff)=> {
 }
 let initAudio = ()=>{
   //load audio files
-beepX = new Audio('./sounds/beepX.mp3');
-beepY = new Audio('./sounds/beepY.mp3');
-beepPaddle = new Audio('./sounds/beepPaddle.mp3');
-beepGameOver = new Audio('./sounds/beepGameOver.mp3');
-bgMusic = new Audio('./sounds/music.mp3');
+beepX = new Audio('/sounds/beepX.mp3');
+beepY = new Audio('/sounds/beepY.mp3');
+beepPaddle = new Audio('/sounds/beepPaddle.mp3');
+beepGameOver = new Audio('/sounds/beepGameOver.mp3');
+bgMusic = new Audio('/sounds/music.mp3');
 //turn off volume
 beepX.volume = 0;
 beepY.volume = 0;
