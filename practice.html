@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Practice </title>
+  <style>
+      #playground {
+        border: 0.6em solid black;
+        width: 40em;
+        height: 40em;
+        margin: auto;
+      }
+      #balloons{
+        border-radius: 5em;
+        background-color: black;
+        width: 3em;
+        height: 3em;
+        border: .2em solid blue;
+        position: absolute;
+      }
+  </style>
+</head>
+<body>
+  <div id="playground">
+    <div id="balloons"></div>
+
+  </div>
+  <script type="text/javascript">
+    let ground = document.getElementById("playground");
+    let ball = document.getElementById("balloons");
+    let d = 10;
+    let jump = 2;
+    ball.style.backgroundColor = "blue";
+
+    let play = ()=>{
+        console.log(innerWidth);
+  }
+
+  window.addEventListener("load", play);
+  </script>
+</body>
+</html>
